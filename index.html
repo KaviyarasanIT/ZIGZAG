@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZIGZAG - HTML Responsive Landing Page</title>
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Line awesome -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="./assets/css/app1.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container">
+            <a href="#" class="brand">ZIGZAG</a>
+            <ul class="nav-links">
+                <li class="active"><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- //Nvbar -->
+    
+    <!-- Hero -->
+    <div id="hero">
+        <div class="container">
+            <h1 class="heading-xl"><span id="hero-titles"></span></h1>
+            <a href="#services" class="scroll-to-down"><i class="las la-arrow-down"></i></a>
+        </div>
+    </div>
+    <!-- //Hero -->
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <div class="section-intro" data-aos="fade-up">
+                <h1 class="heading-2">Our Services</h1>
+            </div>
+            <div class="grid three-col-grid">
+                <div class="service" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon"><i class="las la-tools"></i></div>
+                    <h3 class="heading-3">Website Maintanence : </h3>
+                    <p>Professional website maintenance services for all website needs.    </p>
+                </div>
+                <div class="service" data-aos="fade-up" data-aos-delay="600">
+                    <div class="icon"><i class="las la-feather"></i></div>
+                    <h3 class="heading-3">Full Stack Web Service :</h3>
+                    <p> Comprehensive full stack website development for all your needs. </p>
+                </div>
+                <div class="service" data-aos="fade-up" data-aos-delay="900">
+                    <div class="icon"><i class="las la-tv"></i></div>
+                    <h3 class="heading-3">Website Deployment : </h3>
+                    <p> Dedicated deployment services for seamless website project delivery.                    </p>
+                </div>
+                 <div class="service" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon"><i class="las la-pencil-ruler"></i></div>
+                    <h3 class="heading-3"> Web Design Service : </h3>
+                    <p>Expert web design services for complete website creation.</p>
+                </div> 
+                <div class="service" data-aos="fade-up" data-aos-delay="600">
+                    <div class="icon"><i class="lab la-gg"></i></div>
+                    <h3 class="heading-3">Graphic Designing : </h3>
+                    <p>Expert graphic design services for all digital needs</p>
+                </div>
+                <div class="service" data-aos="fade-up" data-aos-delay="900">
+                    <div class="icon"><i class="las la-marker"></i></div>
+                    <h3 class="heading-3">Backend Services :</h3>
+                    <p>Complete backend services for all your full stack websites. </p>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <!-- //Services -->
+
+    <!-- Work -->
+    <section id="work">
+        <div class="container">
+            <div class="section-intro" data-aos="fade-up">
+                <h1 class="heading-2">Our Recent Work</h1>
+            </div>
+            <a href="#" class="grid two-col-grid">
+                <div class="project" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="./assets/images/farm2.jpg" alt="">
+                    <div class="overlay">
+                        <div>
+                            <h2 class="heading-3">AgriMart</h2>
+                        <p>AgriMart supplies seeds, fertilizers, pesticides, machinery, and equipment to farmers and agricultural businesses, enhancing productivity and sustainability with high-quality products, innovative solutions, and advisory services. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project" data-aos="zoom-in" data-aos-delay="600">
+                    <img src="./assets/images/ecommerse.jpg" alt="">
+                    <div class="overlay">
+                        <div>
+                            <h2 class="heading-3">Second Hand Iteam</h2>
+                        <p>Buying second-hand items: previously owned goods sold for reuse, promoting recycling, waste reduction, and cost-effectiveness. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project" data-aos="zoom-in" data-aos-delay="900">
+                    <img src="./assets/images/bus.jpg" alt="">
+                    <div class="overlay">
+                        <div>
+                            <h2 class="heading-3">Bus Booking</h2>
+                        <p>Bus booking streamlines travel: reserve seats, select dates, locations, and amenities; online platforms offer convenience, savings, and real-time updates for an efficient, seamless experience. </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="project" data-aos="zoom-in" data-aos-delay="1100">
+                    <img src="./assets/images/project-4.jpg" alt="">
+                    <div class="overlay">
+                        <div>
+                            <h2 class="heading-3"></h2>
+                        <p>Complete backend services for all your full stack websites. </p>
+                        </div>
+                    </div>
+                </div> -->
+            </a>
+        </div>
+    </section>
+    <!-- //Work -->
+    <section class="cards-wrapper">
+        <div class="card-grid-space">
+          <div class="num"></div>
+          <a class="card" href="" style="--bg-img: url('')">
+            <div>
+              <h1>Squid Game Loaders</h1>
+              <p>Loaders are one of the classic components used to create an attractive website…</p>
+              <div class="date">22 July 2022</div>
+              <div class="tags">
+                <!-- <div class="tag">CSS</div> -->
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card-grid-space">
+          <div class="num"></div>
+          <a class="card" href="" style="--bg-img: url('')">
+            <div>
+              <h1>Glowing Pulse Search Bar</h1>
+              <p>When it comes to website elements that are beautiful and must-haves…</p>
+              <div class="date">13 July 2022</div>
+              <div class="tags">
+                <!-- <div class="tag">CSS</div> -->
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card-grid-space">
+          <div class="num"></div>
+          <a class="card" href="" style="--bg-img: url('')">
+            <div>
+              <h1>Digital Clock</h1>
+              <p>A digital clock means it shows time in number format…</p>
+              <div class="date">12 July 2022</div>
+              <div class="tags">
+                <!-- <div class="tag">CSS</div> -->
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+        
+
+    <!-- Blog -->
+    <section id="blog">
+        <div class="container">
+            <div class="section-intro" data-aos="fade-up">
+                <h1 class="heading-2">Our Recent Work</h1>
+            </div>
+            <div class="grid three-col-grid">
+                <div class="blog-post" data-aos="flip-left" data-aos-delay="300">
+                    <img src="./assets/images/blog-post-1.jpg" alt="">
+                    <h3><a href="#">Blog Post Title</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet officiis obcaecati cumque.</p>
+                </div>
+                <!-- <div class="blog-post" data-aos="flip-left" data-aos-delay="600">
+                    <img src="./assets/images/blog-post-2.jpg" alt="">
+                    <h3><a href="#">Blog Post Title</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet officiis obcaecati cumque.</p>
+                </div>
+                <div class="blog-post" data-aos="flip-left" data-aos-delay="900">
+                    <img src="./assets/images/blog-post-3.jpg" alt="">
+                    <h3><a href="#">Blog Post Title</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet officiis obcaecati cumque.</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- //Blog -->
+
+    <!-- About us -->
+     
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="grid">
+                <div class="contact-info" data-aos="fade-up">
+                    <div class="section-intro">
+                        <h1 class="heading-2">Contact info</h1>
+                    </div>
+                    <div class="contact-widget">
+                        <h3 class="heading-3">Email</h3>
+                        <ul>
+                            <li>ZigZag2003@gmail.com</li>
+                        
+                        </ul>
+                    </div>
+                    <div class="contact-widget">
+                        <h3 class="heading-3">Phone</h3>
+                        <ul>
+                            <li>+xxxxxxxxxxxxx</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="contact-widget">
+                        <h3 class="heading-3">Location</h3>
+                        <ul>
+                            <li>pollachi, coimbatore Dt,kerala Road.........</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+                    <div class="section-intro">
+                        <h1 class="heading-2">Drop us a line</h1>
+                    </div>
+                    <form action="#">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Jon@example.com">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="" rows="5" class="form-input" placeholder="Hi there..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //Contact -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Template Designed by <a href="">ZigZag</a></p>
+            <div class="social-icons">
+                <a href="#"><i class="lab la-twitter"></i></a>
+                <a href="#"><i class="lab la-facebook"></i></a>
+                <a href="#"><i class="lab la-youtube"></i></a>
+                <a href="#"><i class="lab la-telegram"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <!-- AOS -->
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
